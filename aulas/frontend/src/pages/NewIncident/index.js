@@ -36,7 +36,7 @@ export default function NewIncident() {
 
             history.push('/profile')
         }catch(err){
-            alert('Erro ao cadastrar')
+            alert('Erro ao cadastrar!')
         }
     }
  
