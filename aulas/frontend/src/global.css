@@ -20,7 +20,7 @@ input, button, textarea {
 }
 
 button {
-    cursos: pointer;
+    cursor: pointer;
 }
 
 form input {
