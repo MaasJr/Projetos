@@ -24,6 +24,26 @@
     #page-search-results .cards img {
         height: 250px;
     }
+
+    #page-create-point .field-group {
+        flex-direction: column;
+
+    }
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+
+    @media (max-width: 490px){
+        #page-create-point .items-grid{
+        display:grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(150px,500px));
+    }
+
+    #page-create-point .items-grid li{
+        display: flex;
+    }
+}
 }
 
 @media (min-width: 1700px) {
