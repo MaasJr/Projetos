@@ -64,6 +64,9 @@ itemLi.classList.toggle("selected")
     
 const itemId = itemLi.dataset.id
 
+// Teste do itemId
+// console.log('ITEM ID: ', itemId)
+
 // Verificar se existem itens selecionados, se sim, pegar os itens selecionados.
 const alreadySelected = selectedItems.findIndex( item => {
         const itemFound = item == itemId // isso será true ou false
@@ -85,7 +88,12 @@ const alreadySelected = selectedItems.findIndex( item => {
         selectedItems.push(itemId)
     }
 
-// Atualizar o campo "hidden" com os dados selecionados.
+    
+    
+    // Teste do selectedItems
+    // console.log('selectedItems: ', selectedItems)
+
+    // Atualizar o campo "hidden" com os dados selecionados.
 
    collectedItems.value = selectedItems
 
